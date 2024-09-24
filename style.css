@@ -60,6 +60,9 @@ h2 {
 
   list-style: none;
 
+  display: flex;
+  flex-direction: row;
+
   border-radius: 5px;
 }
 
@@ -68,4 +71,48 @@ h2 {
   margin: 0 auto;
 
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+}
+
+.card--text-games {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.card--text-appearance {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.card--text-base {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.card--imgAndbuttons {
+  display: flex;
+  flex-direction: row;
+  height: 256px;
+}
+
+.card--button {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 103px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: larger;
+  transition: all 300ms;
+}
+
+.card--button:hover {
+  background-color: aliceblue;
+}
+
+.card--text-base-stats {
+  padding-bottom: 10px;
+  font-weight: 500;
 }
